@@ -12,11 +12,21 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
-    "mocha-multi": "^0.9.0"
+    "mocha-multi": "^0.9.0",
+    "supertest": "^3.0.0",
+    "unexpected": "^10.29.0"
   },
   "keywords": [
     "node"
   ],
   "author": "Ethan Miller",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "jQuery": "^1.7.4",
+    "jsdom": "^11.0.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
 }
